@@ -1,10 +1,13 @@
+int led = 5;
+int duty =50;
+
 void setup() {
-    pinMode(2, OUTPUT);
+    pinMode(led, OUTPUT);
 }
 
 void loop() {
-    digitalWrite(2, HIGH);
+    digitalWrite(led, HIGH);
     delay(1000);
-    digitalWrite(2,LOW);
+    analogWrite(led,duty);
     delay(1000);
 }

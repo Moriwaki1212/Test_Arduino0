@@ -1,10 +1,10 @@
 
 int led = 5;
-int duty = 255; 
+int duty = 2; 
 
 
 void setup() {
-    delay(10000);
+    //delay(10000);
     pinMode(3, INPUT);              //3ピンを入力ピンにする
     pinMode(led, OUTPUT);             //7ピンを出力ピンにする
 
